@@ -239,3 +239,17 @@ ul > a> li{
     list-style: none;
     margin: 5px;
 }
+
+@media (max-width: 768px) {
+    .card{
+        display: block;
+        width: 100%;
+    }
+    .process-card{
+        display: block;
+        width: 100%;
+    }
+    .line{
+        width: 10rem;
+    }
+}
