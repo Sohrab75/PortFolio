@@ -9,7 +9,7 @@
 .front-container{
     position: relative;
     background: radial-gradient(circle , transparent 10%, hsla(0, 0%, 2%, 0.8), rgba(15, 15, 15, 0.5) ),
-    url(./images/prof-img.jpg) no-repeat;
+    url(https://i.ibb.co/G3LXx3q/prof-img.jpg) no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
