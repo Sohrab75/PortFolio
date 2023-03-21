@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+.front-container{
+    position: relative;
+    background: radial-gradient(circle , transparent 10%, hsla(0, 0%, 2%, 0.8), rgba(15, 15, 15, 0.5) ),
+    url(./images/prof-img.jpg) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    background-position: center;
+    width: 100%;
+    height: 40rem;
+    background-color: black;
+    border-radius: 5px;
+    margin-top: 20px;
+   
+}
+/* .background{
+    height: 40rem;
+    width: 50%;
+    position: absolute;
+    right: 0;
+    background: rgba(0, 0, 0, 0.9);
+} */
+.front-card{
+    position: absolute;
+    background-color: transparent;
+    top: 45%;
+    left: 10%;
+    color: #edf6f9;
+    
+}
+.body-container > .row{ 
+    margin-top: 5%; 
+    margin-left: 10%;
+}
+
+.row >.title-card{
+    width: 40rem;
+}
+.progress{
+    margin-top: 20px;
+}
+
+.progress-line{
+    width: 50%;
+    margin: 10px;
+}
+
+.card-link{
+    background-color: #ea80fc;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 2px;
+}
+.skills-container{
+    height: 30rem;
+    
+} 
+.progress-line-main{
+    display: flex;
+    
+}
+.one{
+    animation:movement 2s ease-out;
+}
+
+@keyframes movement{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+.two{
+    animation:movement1 2s ease-out;
+}
+
+@keyframes movement1{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+.three{
+    animation:movement2 2s ease-out;
+}
+
+@keyframes movement2{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+.four{
+    animation:movement3 2s ease-out;
+}
+
+@keyframes movement3{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+
+.mongoDb{
+    animation:movement4 2s ease-out;
+}
+
+@keyframes movement4{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 25%;
+    }
+}
+.NodeJs{
+    animation:movement5 2s ease-out;
+}
+
+@keyframes movement5{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 30%;
+    }
+}
+.ExpressJs{
+    animation:movement6 2s ease-out;
+}
+
+@keyframes movement6{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 25%;
+    }
+}
+.RestAPI{
+    animation:movement7 2s ease-out;
+}
+
+@keyframes movement7{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 25%;
+    }
+}
+
+
+
+
+
+/*
+.progress-row{
+    width: 100%;
+    height: 20rem;
+    margin: 5px;
+}
+.progress-bar{
+    margin-bottom: 5px;
+
+}
+.progress-title{
+    display: inline-block;
+    
+} */
+.process-card{
+    display: flex;
+    margin: 12px;
+}
+.card-header > a{
+    text-decoration: none;
+}
+.card{
+    display: inline-block;
+    width: calc(30.33% - 20px);
+    margin: 12px;
+    transition: all ease 0.5s;
+    
+}
+.card:hover{
+    transform: scale(1.1);
+    outline: 2px solid black;
+}
+.card-img >img{
+    width: 20rem;
+    height: 20rem;
+}
+.h1{
+    text-align: center;
+}
+
+.line{
+    width: 30rem;
+    height: 1rem;
+    background-color: #ffb7ff;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: 29%;
+}
+footer{
+    background-color: #e8ecf8;
+}
+footer > .container-fluid> .row{
+    margin-left: 10%;
+}
+ul >li{
+    text-decoration: none;
+    list-style: none;
+    margin: 5px;
+}
+ul > a {
+    text-decoration: none;
+}
+ul > a> li{
+    list-style: none;
+    margin: 5px;
+}
